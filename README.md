@@ -8,6 +8,11 @@ ChatGPTを用いてロボットと雑談するプログラムです。ユーザ�
 git clone https://github.com/social-robotics-lab/chat-with-robot-using-chatgpt.git
 ```
 
+srcフォルダの下に.envファイルを作成し、下記のようにOpenAIのAPIキーを入力してください。
+```
+OPENAI_API_KEY='your api key'
+```
+
 ## Docker build and run
 ```
 cd chat-with-robot-using-chatgpt
